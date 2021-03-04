@@ -20,7 +20,6 @@ class Cvc4 < Formula
   depends_on "automake" => :build if not build.head?
   depends_on "libtool" => :build if not build.head?
   depends_on "cryptominisat" => :build
-  depends_on :arch => :x86_64
 
   resource "toml" do
     url "https://files.pythonhosted.org/packages/b9/19/5cbd78eac8b1783671c40e34bb0fa83133a06d340a38b55c645076d40094/toml-0.10.0.tar.gz"
